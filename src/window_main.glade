@@ -52,6 +52,48 @@
             <property name="y">87</property>
           </packing>
         </child>
+        <child>
+          <object class="GtkButton" id="btn_testing_inputs">
+            <property name="label" translatable="yes">Test Inputs</property>
+            <property name="width_request">100</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_testing_inputs_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">117</property>
+            <property name="y">87</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkCheckButton" id="check_button">
+            <property name="label" translatable="yes">checkbutton</property>
+            <property name="width_request">-1</property>
+            <property name="height_request">-1</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">False</property>
+            <property name="draw_indicator">True</property>
+          </object>
+          <packing>
+            <property name="x">116</property>
+            <property name="y">20</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="text_input">
+            <property name="width_request">-1</property>
+            <property name="height_request">-1</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+          </object>
+          <packing>
+            <property name="x">116</property>
+            <property name="y">45</property>
+          </packing>
+        </child>
       </object>
     </child>
   </object>
