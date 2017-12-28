@@ -47,7 +47,7 @@ done
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 12 10:30:25 2017
+# Make data base, printed on Thu Dec 28 08:58:10 2017
 
 # Variables
 
@@ -701,10 +701,10 @@ GSETTINGS_DISABLE_SCHEMAS_COMPILE =
 # ../m4/RCS: could not be stat'd.
 # ../SCCS: could not be stat'd.
 # ../RCS: could not be stat'd.
-# .. (device 64770, inode 1706475): 30 files, no impossibilities.
+# .. (device 64770, inode 1706475): 31 files, no impossibilities.
 # RCS: could not be stat'd.
 
-# 92 files, no impossibilities in 9 directories.
+# 93 files, no impossibilities in 9 directories.
 
 # Implicit Rules
 
@@ -2271,13 +2271,13 @@ install-ps-am:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 397 / storage = 5817 B / avg = 14 B
-# current buf: size = 8162 B / used = 5817 B / count = 397 / avg = 14 B
+# strcache buffers: 1 (0) / strings = 398 / storage = 5822 B / avg = 14 B
+# current buf: size = 8162 B / used = 5822 B / count = 398 / avg = 14 B
 
-# strcache performance: lookups = 718 / hit rate = 44%
+# strcache performance: lookups = 719 / hit rate = 44%
 # hash-table stats:
-# Load=397/8192=5%, Rehash=0, Collisions=43/718=6%
-# Finished Make data base on Sat Aug 12 10:30:25 2017
+# Load=398/8192=5%, Rehash=0, Collisions=43/719=6%
+# Finished Make data base on Thu Dec 28 08:58:10 2017
 
 Making all in src
 rm -f testingstuff_vala.stamp && echo stamp > testingstuff_vala.stamp-t
@@ -2304,7 +2304,7 @@ done
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 12 10:30:25 2017
+# Make data base, printed on Thu Dec 28 08:58:10 2017
 
 # Variables
 
@@ -3035,18 +3035,18 @@ GSETTINGS_DISABLE_SCHEMAS_COMPILE =
 
 # ../m4 (device 64770, inode 1707002): 56 files, 66 impossibilities.
 # SCCS: could not be stat'd.
-# . (device 64770, inode 1707005): 20 files, 6 impossibilities.
+# . (device 64770, inode 1707005): 29 files, 6 impossibilities.
 # ../m4/SCCS: could not be stat'd.
 # ../m4/RCS: could not be stat'd.
 # ../SCCS: could not be stat'd.
 # ../RCS: could not be stat'd.
 # .deps (device 64770, inode 1836026): 3 files, 3 impossibilities.
 # .deps/SCCS: could not be stat'd.
-# .. (device 64770, inode 1706475): 30 files, 6 impossibilities.
+# .. (device 64770, inode 1706475): 31 files, 6 impossibilities.
 # RCS: could not be stat'd.
 # .deps/RCS: could not be stat'd.
 
-# 109 files, 81 impossibilities in 12 directories.
+# 119 files, 81 impossibilities in 12 directories.
 
 # Implicit Rules
 
@@ -3528,7 +3528,7 @@ install-binPROGRAMS: testingstuff
 # Not a target:
 main.vala:
 #  Implicit rule search has been done.
-#  Last modified 2017-08-11 21:31:55.14270253
+#  Last modified 2017-12-27 16:51:07.55231935
 #  File has been updated.
 #  Successfully updated.
 
@@ -4969,15 +4969,15 @@ install-ps-am:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 3 (2) / strings = 1007 / storage = 19761 B / avg = 19 B
-# current buf: size = 8162 B / used = 3458 B / count = 181 / avg = 19 B
-# other used: total = 16303 B / count = 826 / avg = 19 B
-# other free: total = 21 B / max = 13 B / min = 8 B / avg = 10 B
+# strcache buffers: 3 (1) / strings = 1017 / storage = 19932 B / avg = 19 B
+# current buf: size = 8162 B / used = 3642 B / count = 189 / avg = 19 B
+# other used: total = 16290 B / count = 828 / avg = 19 B
+# other free: total = 34 B / max = 26 B / min = 8 B / avg = 17 B
 
-# strcache performance: lookups = 1524 / hit rate = 33%
+# strcache performance: lookups = 1534 / hit rate = 33%
 # hash-table stats:
-# Load=1007/8192=12%, Rehash=0, Collisions=164/1524=11%
-# Finished Make data base on Sat Aug 12 10:30:25 2017
+# Load=1017/8192=12%, Rehash=0, Collisions=165/1534=11%
+# Finished Make data base on Thu Dec 28 08:58:10 2017
 
 Making all in po
 gmake .pot-update
@@ -5052,7 +5052,7 @@ test ! -f .po || { \
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 12 10:30:25 2017
+# Make data base, printed on Thu Dec 28 08:58:10 2017
 
 # Variables
 
@@ -5411,10 +5411,10 @@ GMOFILES =
 # . (device 64770, inode 1707004): 17 files, no impossibilities.
 # ../SCCS: could not be stat'd.
 # ../RCS: could not be stat'd.
-# .. (device 64770, inode 1706475): 30 files, no impossibilities.
+# .. (device 64770, inode 1706475): 31 files, no impossibilities.
 # RCS: could not be stat'd.
 
-# 47 files, no impossibilities in 6 directories.
+# 48 files, no impossibilities in 6 directories.
 
 # Implicit Rules
 
@@ -6968,13 +6968,13 @@ install: install-exec install-data
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 242 / storage = 2455 B / avg = 10 B
-# current buf: size = 8162 B / used = 2455 B / count = 242 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 243 / storage = 2460 B / avg = 10 B
+# current buf: size = 8162 B / used = 2460 B / count = 243 / avg = 10 B
 
-# strcache performance: lookups = 386 / hit rate = 37%
+# strcache performance: lookups = 387 / hit rate = 37%
 # hash-table stats:
-# Load=242/8192=3%, Rehash=0, Collisions=52/386=13%
-# Finished Make data base on Sat Aug 12 10:30:25 2017
+# Load=243/8192=3%, Rehash=0, Collisions=52/387=13%
+# Finished Make data base on Thu Dec 28 08:58:10 2017
 
 test "0.19" = "0.19" || { echo "*** error: gettext infrastructure mismatch: using a Makefile.in.in from gettext version 0.19 but the autoconf macros are from gettext version 0.19" 1>&2; exit 1; }
 test ! -f ./.pot || \
@@ -6991,7 +6991,7 @@ test ! -f ./.pot || { \
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 12 10:30:25 2017
+# Make data base, printed on Thu Dec 28 08:58:10 2017
 
 # Variables
 
@@ -7350,10 +7350,10 @@ GMOFILES =
 # . (device 64770, inode 1707004): 17 files, no impossibilities.
 # ../SCCS: could not be stat'd.
 # ../RCS: could not be stat'd.
-# .. (device 64770, inode 1706475): 30 files, no impossibilities.
+# .. (device 64770, inode 1706475): 31 files, no impossibilities.
 # RCS: could not be stat'd.
 
-# 47 files, no impossibilities in 6 directories.
+# 48 files, no impossibilities in 6 directories.
 
 # Implicit Rules
 
@@ -8910,13 +8910,13 @@ install: install-exec install-data
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 246 / storage = 2420 B / avg = 9 B
-# current buf: size = 8162 B / used = 2420 B / count = 246 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 247 / storage = 2425 B / avg = 9 B
+# current buf: size = 8162 B / used = 2425 B / count = 247 / avg = 9 B
 
-# strcache performance: lookups = 389 / hit rate = 36%
+# strcache performance: lookups = 390 / hit rate = 36%
 # hash-table stats:
-# Load=246/8192=3%, Rehash=0, Collisions=53/389=14%
-# Finished Make data base on Sat Aug 12 10:30:25 2017
+# Load=247/8192=3%, Rehash=0, Collisions=53/390=14%
+# Finished Make data base on Thu Dec 28 08:58:11 2017
 
 test -f config.h || rm -f stamp-h1
 test -f config.h || gmake  stamp-h1
@@ -8927,7 +8927,7 @@ test -f config.h || gmake  stamp-h1
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 12 10:30:25 2017
+# Make data base, printed on Thu Dec 28 08:58:11 2017
 
 # Variables
 
@@ -9630,12 +9630,12 @@ GZIP_ENV = --best
 
 # m4 (device 64770, inode 1707002): 56 files, no impossibilities.
 # SCCS: could not be stat'd.
-# . (device 64770, inode 1706475): 30 files, no impossibilities.
+# . (device 64770, inode 1706475): 31 files, no impossibilities.
 # m4/SCCS: could not be stat'd.
 # m4/RCS: could not be stat'd.
 # RCS: could not be stat'd.
 
-# 86 files, no impossibilities in 6 directories.
+# 87 files, no impossibilities in 6 directories.
 
 # Implicit Rules
 
@@ -12491,13 +12491,13 @@ mostlyclean-recursive:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 444 / storage = 6166 B / avg = 13 B
-# current buf: size = 8162 B / used = 6166 B / count = 444 / avg = 13 B
+# strcache buffers: 1 (0) / strings = 445 / storage = 6171 B / avg = 13 B
+# current buf: size = 8162 B / used = 6171 B / count = 445 / avg = 13 B
 
-# strcache performance: lookups = 996 / hit rate = 55%
+# strcache performance: lookups = 997 / hit rate = 55%
 # hash-table stats:
-# Load=444/8192=5%, Rehash=0, Collisions=38/996=4%
-# Finished Make data base on Sat Aug 12 10:30:25 2017
+# Load=445/8192=5%, Rehash=0, Collisions=38/997=4%
+# Finished Make data base on Thu Dec 28 08:58:11 2017
 
 # GNU Make 4.2.1
 # Built for x86_64-redhat-linux-gnu
@@ -12506,7 +12506,7 @@ mostlyclean-recursive:
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 12 10:30:25 2017
+# Make data base, printed on Thu Dec 28 08:58:11 2017
 
 # Variables
 
@@ -13203,12 +13203,12 @@ GZIP_ENV = --best
 
 # m4 (device 64770, inode 1707002): 56 files, no impossibilities.
 # SCCS: could not be stat'd.
-# . (device 64770, inode 1706475): 30 files, no impossibilities.
+# . (device 64770, inode 1706475): 31 files, no impossibilities.
 # m4/SCCS: could not be stat'd.
 # m4/RCS: could not be stat'd.
 # RCS: could not be stat'd.
 
-# 86 files, no impossibilities in 6 directories.
+# 87 files, no impossibilities in 6 directories.
 
 # Implicit Rules
 
@@ -16059,13 +16059,13 @@ mostlyclean-recursive:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 444 / storage = 6166 B / avg = 13 B
-# current buf: size = 8162 B / used = 6166 B / count = 444 / avg = 13 B
+# strcache buffers: 1 (0) / strings = 445 / storage = 6171 B / avg = 13 B
+# current buf: size = 8162 B / used = 6171 B / count = 445 / avg = 13 B
 
-# strcache performance: lookups = 996 / hit rate = 55%
+# strcache performance: lookups = 997 / hit rate = 55%
 # hash-table stats:
-# Load=444/8192=5%, Rehash=0, Collisions=38/996=4%
-# Finished Make data base on Sat Aug 12 10:30:25 2017
+# Load=445/8192=5%, Rehash=0, Collisions=38/997=4%
+# Finished Make data base on Thu Dec 28 08:58:11 2017
 
 # GNU Make 4.2.1
 # Built for x86_64-redhat-linux-gnu
@@ -16074,7 +16074,7 @@ mostlyclean-recursive:
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 12 10:30:25 2017
+# Make data base, printed on Thu Dec 28 08:58:11 2017
 
 # Variables
 
@@ -16769,12 +16769,12 @@ GZIP_ENV = --best
 
 # m4 (device 64770, inode 1707002): 56 files, no impossibilities.
 # SCCS: could not be stat'd.
-# . (device 64770, inode 1706475): 30 files, no impossibilities.
+# . (device 64770, inode 1706475): 31 files, no impossibilities.
 # m4/SCCS: could not be stat'd.
 # m4/RCS: could not be stat'd.
 # RCS: could not be stat'd.
 
-# 86 files, no impossibilities in 6 directories.
+# 87 files, no impossibilities in 6 directories.
 
 # Implicit Rules
 
@@ -17089,7 +17089,7 @@ pdf: pdf-recursive
 
 .gitignore: Makefile.am git.mk
 #  Implicit rule search has not been done.
-#  Last modified 2017-07-28 20:31:22.472757385
+#  Last modified 2017-08-12 10:46:08.328518811
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'git.mk', line 166):
@@ -19667,11 +19667,11 @@ mostlyclean-recursive:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 444 / storage = 6166 B / avg = 13 B
-# current buf: size = 8162 B / used = 6166 B / count = 444 / avg = 13 B
+# strcache buffers: 1 (0) / strings = 445 / storage = 6171 B / avg = 13 B
+# current buf: size = 8162 B / used = 6171 B / count = 445 / avg = 13 B
 
-# strcache performance: lookups = 996 / hit rate = 55%
+# strcache performance: lookups = 997 / hit rate = 55%
 # hash-table stats:
-# Load=444/8192=5%, Rehash=0, Collisions=38/996=4%
-# Finished Make data base on Sat Aug 12 10:30:26 2017
+# Load=445/8192=5%, Rehash=0, Collisions=38/997=4%
+# Finished Make data base on Thu Dec 28 08:58:11 2017
 

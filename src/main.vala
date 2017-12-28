@@ -1,5 +1,6 @@
 using Gtk;
 using Mysql;
+using Mysharedlibrary;
 
 int count=0;
 
@@ -31,7 +32,11 @@ public void on_btn_hello_clicked (Button source) {
 int main (string[] args)
 {
 	// Build this with Gtk and Mysql libraries:
-	// valac -v --pkg mysql --pkg gtk+-3.0 --pkg gmodule-2.0 main.vala -X -L/usr/lib64/mysql -X -lmysqlclient
+	// [bhoffort@brad src]$ valac -v --pkg mysql --pkg gtk+-3.0 --pkg gmodule-2.0 MySharedLibrary.vapi main.vala -X -L/usr/lib64/mysql -X -lmysqlclient -X ./mysharedlibrary.so -X -I. -o main
+
+	stdout.printf("\nTesting shlib");
+    stdout.printf("\n\t2 + 3 is %d", sum(2, 3));
+    stdout.printf("\n\t8 squared is %d\n", square(8));
 
     Gtk.init (ref args);
 
