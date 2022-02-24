@@ -2,7 +2,8 @@
     treeview-list.vala - Vala TreeView list example
 
     Build with:
-    valac --pkg gtk+-2.0 --pkg posix treeview-list.vala
+    valac --pkg gtk+-3.0 --pkg posix treeview-list.vala -o tv && ./tv
+    Working 2/24/2022
 */
 
 static int main (string[] args) {

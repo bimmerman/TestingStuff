@@ -1,16 +1,16 @@
 using Gtk;
 using Mysql;
-using Mysharedlibrary;
+//using Mysharedlibrary;
 
-int count=0;
+//int count=0;
 
 // Declare interface elements we want to manipulate
-Gtk.Label lbl_count;
-Gtk.Label lbl_hello;
-Gtk.CheckButton check_button;
-Gtk.Entry text_input;
+//Gtk.Label lbl_count;
+//Gtk.Label lbl_hello;
+//Gtk.CheckButton check_button;
+//Gtk.Entry text_input;
 
-// Change the label
+/* Change the label
 public void on_button2_clicked (Button source) {
 	source.label = "Thanks!";
 }
@@ -26,31 +26,41 @@ public void on_btn_testing_inputs_clicked(Button source)
 public void on_btn_hello_clicked (Button source) {
 	count++;
 	lbl_count.set("label",count.to_string());
-	lbl_hello.set("label",getName());
+	//lbl_hello.set("label",getName());
 }
+*/
 
 int main (string[] args)
 {
-	// Build this with Gtk and Mysql libraries:
-	// [bhoffort@brad src]$ valac -v --pkg mysql --pkg gtk+-3.0 --pkg gmodule-2.0 MySharedLibrary.vapi main.vala -X -L/usr/lib64/mysql -X -lmysqlclient -X ./mysharedlibrary.so -X -I. -o main
+    /*
+    // Case 1: Shared Library.
+    // Working 2/24/2022
+    // Built this section with Gtk and Mysql libraries: (may not need all the libraries...)
+    // valac -v --pkg mysql --pkg gtk+-3.0 --pkg gmodule-2.0 MySharedLibrary.vapi main.vala -X -L/usr/lib64/mysql -X -lmysqlclient -X ./mysharedlibrary.so -X -I. -o main
 
-	stdout.printf("\nTesting shlib");
+    stdout.printf("\nTesting shlib");
     stdout.printf("\n\t2 + 3 is %d", sum(2, 3));
     stdout.printf("\n\t8 squared is %d\n", square(8));
-
+    return 0;
+    */
+    
+    /*
+    // Case 2: Text File Viewer
+    // using statements above require all the libraries to be compiled to satisfy.
+    // Working 2/24/2022
+    // valac -v --pkg mysql --pkg gtk+-3.0 --pkg gmodule-2.0 TextFileViewer.vala MySharedLibrary.vapi main.vala -X -L/usr/lib64/mysql -X -lmysqlclient -X ./mysharedlibrary.so -X -I. -o main
     Gtk.init (ref args);
 
-	// Compilation on command line needs to include the file when its seperated.
-	// valac --pkg gtk+-3.0 --pkg gmodule-2.0 main.vala TextFileViewer.vala
-    // var window = new TextFileViewer();
-    // window.destroy.connect (Gtk.main_quit);
-    // window.show_all ();
-    // Gtk.main ();
+    var window = new TextFileViewer();
+    window.destroy.connect (Gtk.main_quit);
+    window.show_all ();
+    Gtk.main ();
+    return 0;
+    */
 
-	// Attempting to load UI from a Glade xml file.
-	// This doesn't work from Builder but needs to be compiled on command line:
-	// [bhoffort@brad src]$ valac --pkg gtk+-3.0 --pkg gmodule-2.0 main.vala
-	// ./main
+    // Attempting to load UI from a Glade xml file.
+    // This doesn't work anymore	
+    /*
     try
     {
         var builder = new Builder ();
@@ -73,20 +83,27 @@ int main (string[] args)
         stderr.printf ("Could not load UI: %s\n", e.message);
         return 1;
     }
-
+    */
+    
+    // Working 2/24/2022
+    // valac -v --pkg mysql --pkg gtk+-3.0 --pkg gmodule-2.0 main.vala -X -L/usr/lib64/mysql -X -lmysqlclient -o main
+    stdout.printf("Should be Bob...\ngetName()=[%s]\n",getName());
     return 0;
 }
 
+/**
+ * Tests the database functionality.
+*/
 string getName()
 {
-	int rc = 0;
-	string result="";
+    int rc = 0;
+    string result="";
 
-	ClientFlag cflag    = 0;
-	string     host     = "127.0.0.1";
-	string     user     = "brad";
-    string     password = "8rLRxS70";
-    string     database = "test";
+    ClientFlag cflag    = 0;
+    string     host     = "127.0.0.1";
+    string     user     = "root";
+    string     password = "8rLRxS70!@";
+    string     database = "rest_api_demo";
     int        port     = 3306;
     string     socket   = null;
 
@@ -103,7 +120,7 @@ string getName()
                 , mysql.get_server_info()
                 , (ulong) mysql.get_server_version());
 
-    string sql = "SELECT * FROM licence_manager.application;";
+    string sql = "SELECT * FROM users limit 1;";
     rc = mysql.query(sql);
     if ( rc != 0 ) {
         stdout.printf("ERROR %u: Query failed: %s\n", mysql.errno(), mysql.error());
@@ -116,5 +133,5 @@ string getName()
     while ( (MyRow = ResultSet.fetch_row()) != null ) {
 	    result=MyRow[1];
     }
-    return result;
+    return result;   
 }

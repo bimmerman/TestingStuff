@@ -1,5 +1,19 @@
 using Gtk;
 
+// valac -v --pkg gtk+-3.0 --pkg gmodule-2.0 TreeViewSample.vala -o main
+// Working 2/24/2022
+
+int main (string[] args)
+{
+    Gtk.init (ref args);
+
+    var window = new TreeViewSample();
+    window.destroy.connect (Gtk.main_quit);
+    window.show_all ();
+    Gtk.main ();
+    return 0;
+}
+
 public class TreeViewSample : Window {
 
     public TreeViewSample () {

@@ -1,5 +1,20 @@
 using Gtk;
 
+// valac -v --pkg gtk+-3.0 --pkg gmodule-2.0 Application.vala -o main
+// Working 2/24/2022
+
+int main (string[] args)
+{
+    Gtk.init (ref args);
+
+    var window = new Application();
+    window.destroy.connect (Gtk.main_quit);
+    window.show_all ();
+    Gtk.main ();
+    return 0;
+}
+
+// Type a char and see the search results.
 public class Application : Gtk.Window {
 
         public Application () {

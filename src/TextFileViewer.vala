@@ -1,7 +1,7 @@
 using Gtk;
 
 public class TextFileViewer : Window
-{
+{    
     private TextView text_view;
 
     public TextFileViewer ()
